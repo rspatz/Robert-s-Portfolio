@@ -1,0 +1,202 @@
+
+/* Large tablet to 1200px */
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: auto;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+    
+    footer .social-icons {
+        margin: .5em 20em;
+        width: auto;
+        padding: 0 4em;
+    }
+
+/* Small tablet to large tablet, from 767px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .steps-box { margin-top: 10px; }
+    .works-steps { margin-bottom: 40px; }
+    
+    footer {
+        height: 20em;
+        padding-top: 1em;
+        clear: both;
+    }
+
+    footer .social-icons {
+        margin: .5em 50em 0;
+        width: 50%;
+        padding: 0 4em;
+    }
+    
+    footer .copyright h3 {
+        font-size: .75em;
+        width: 100%;
+        margin: 2em 50% 0;
+        color: #725d58;
+    }
+    
+    footer .thankYou h4 {
+        font-size: 90%;
+        float: center;
+    }
+    
+}
+
+/* Phones and Tablets smaller than iPad, From 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+    
+    .main-nav {
+        float: left !important;
+    }
+    
+    .main-nav li {
+        display: block !important;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+    }
+    
+    .mobile-nav-icon {
+        display: inline-block !important;
+    }
+    
+    .hero-text-box h1 {
+        font-size: 3em;
+        margin-left: .5em;
+    }
+    
+    .hero-text-box h2 {
+        font-size: 1.75em;
+    }
+    
+    .section-features p {
+        width: auto;
+    }
+    
+    .section-features {
+        font-size: 90%;
+        width: auto;
+    }
+    
+    .long-copy-heading {
+        margin: 2em 0;
+        width: auto;
+    }
+    
+    .long-copy-heading li {
+        margin: 0;
+    }
+    
+    footer {
+        height: 20em;
+        padding-top: 1em;
+        clear: both;
+    }
+    
+    footer .thankYou h4 {
+        font-size: .8em;
+    }
+
+    footer .social-icons {
+        margin: .5em 15em;
+        width: 75%;
+        padding: 0 1em;
+    }
+    
+    footer .copyright h3 {
+        font-size: .75em;
+        width: 100%;
+        margin: 2em 43% 0;
+        color: #725d58;
+    }
+    
+}
+
+/* Small Phones: From 0 to 480px */
+
+@media only screen and (max-width: 480px) {
+    h2 {
+        text-align: left;
+    }
+    
+    .long-copy {
+        width: 100%;
+        margin-left: 10%;
+    }
+    
+    .hero-text-box h1 {
+        font-size: 2.5em;
+    }
+    
+    .hero-text-box h2 {
+        font-size: 1.25em;
+        margin-left: .75em;
+    }
+    
+    .hero-text-box .social-icons-header {
+        padding: 0 1em;
+        width: 100%;
+        display: inline;
+        margin: .5em 0;
+    }
+    
+    .row-edu h2 {
+        font-size: 1.5em;
+    }
+    
+    .row h2 {
+        margin-bottom: 0;
+    }
+    
+    .section-intro h2 {
+        float: center;
+        color: #fff;
+    }
+    
+    .section-intro-content p {
+        width: 80%;
+        margin: 0 10%
+    }
+    
+    footer .thankYou h4 {
+        font-size: .75em;
+        margin-right: 5em;
+        text-align: center;
+    }
+    
+    footer h4 {
+        color: #937e78;
+        margin-left: 15%;
+        letter-spacing: .05em;
+    }
+
+    footer .social-icons {
+        margin: 1em 9em;
+        width: 75%;
+        padding: 0 1em;
+    }
+    
+    footer .copyright h3 {
+        font-size: .75em;
+        width: 100%;
+        margin: 1em 22% 0;
+        color: #725d58;
+    }   
+}
